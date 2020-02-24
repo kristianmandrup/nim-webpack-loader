@@ -1,0 +1,40 @@
+{
+  "name": "nim-webpack-loader",
+  "version": "1.0.0",
+  "description": "Webpack loader for the nim programming language.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nim-community/nim-webpack-loader.git"
+  },
+  "keywords": [
+    "nim",
+    "webpack",
+    "loader"
+  ],
+  "author": "nim-community",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/nim-community/nim-webpack-loader/issues"
+  },
+  "homepage": "https://github.com/nim-community/nim-webpack-loader",
+  "dependencies": {
+    "glob": "^7.1.1",
+    "loader-utils": "^1.0.2",
+    "node-nim-compiler": "^5.0.0",
+    "yargs": "^6.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^6.1.4"
+  },
+  "peerDependencies": {
+    "nim": "^1.0.0"
+  }
+}

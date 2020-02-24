@@ -1,0 +1,2 @@
+var 
+  content*: string = "World!"
